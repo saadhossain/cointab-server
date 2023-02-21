@@ -1,0 +1,10 @@
+-- Table Structure
+CREATE TABLE users(
+    id VARCHAR(80) PRIMARY KEY,
+    name VARCHAR(150),
+    email VARCHAR(200),
+    phone VARCHAR(20),
+    gender VARCHAR(20),
+    location VARCHAR(50),
+    picture VARCHAR(300)
+);
